@@ -4,7 +4,6 @@ body {
   background-color: #696969;
   height: 100%;
   width: 100%;
-
 }
 
 body,
@@ -75,6 +74,14 @@ section {
   background-color: rgb(1, 1, 145);
 }
 
+.playing {
+    transform: scale(1.05);
+    box-shadow: 0 0 0.2vmin #888888;
+    border-color: #888888;
+    filter: brightness(10);
+    transition: all .6s ease;
+  }
+  
 /* ----- Game Controler ----- */
 
 #game-controler {
@@ -135,7 +142,6 @@ input[type=checkbox] {
   justify-content: center;
   flex-direction: column;
 }
-
 
 /* ----- Game Counter settings ----- */
 
